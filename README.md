@@ -1,7 +1,7 @@
-```npm install```
-```npm run dev``` runs webpack dev server at ```http://127.0.0.1:8080/```
-```npm run build:dev``` builds dev version of the app using ```awesome-typescript``` loader
-```npm run build:prod``` builds prod version of the app using ```ngtools/webpack``` loader
+* ```npm install```
+* ```npm run dev``` runs webpack dev server at ```http://127.0.0.1:8080/```
+* ```npm run build:dev``` builds dev version of the app using ```awesome-typescript``` loader
+* ```npm run build:prod``` builds prod version of the app using ```ngtools/webpack``` loader
 
 Steps to reproduce:
 1. build dev and prod versions of the app
