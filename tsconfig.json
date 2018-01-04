@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "lib": ["es2015", "dom"],
+    "moduleResolution": "node",
+    "types": ["node", "webpack", "core-js"],
+    "typeRoots": ["node_modules/@types"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noEmitHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "*",
+        "node_modules/*",
+        "src/*",
+        "src/*/index.ts"
+      ]
+    }
+  },
+
+  "exclude": [
+    "node_modules",
+    "./src/**/*.spec.ts"
+  ],
+
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
+

@@ -1,0 +1,17 @@
+# OS generated files #
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Node Files #
+/node_modules
+/bower_components
+
+# IDE #
+.idea/
+*.swp
+
+dev
+prod
+package-lock.json
